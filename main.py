@@ -2,7 +2,6 @@ import streamlit as st
 
 
 def main():
-    st.title("Welcome to Streamlit App")
     st.write("Hello World!")
 
 

@@ -18,7 +18,7 @@ jobs:
       uses: Azure/docker-login@v1
       with:
         username: jacob
-        password: SJSGAY9HkUL/Q5/cjgXqCiflkMuJSQvTjew/ltUJrS+ACRAErICt
+        password: ${{ secrets.ACR_PASSWORD }}
         login-server: jacob.azurecr.io
 
     - name: Set up Docker Buildx

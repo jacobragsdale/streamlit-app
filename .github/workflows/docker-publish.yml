@@ -30,6 +30,3 @@ jobs:
         context: .
         push: true
         tags: jacob.azurecr.io/streamlit-app:latest
-
-    - name: Log out from Azure
-      run: az logout
